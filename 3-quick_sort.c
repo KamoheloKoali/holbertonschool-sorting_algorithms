@@ -40,7 +40,7 @@ int partition(int arr[], int size, int low, int high)
 		}
 	}
 	swap1(arr, size, &arr[i + 1], &arr[high]);
-	return (i + 1);
+	return (i);
 
 }
 
