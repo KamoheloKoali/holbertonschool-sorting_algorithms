@@ -74,7 +74,7 @@ void sort(int arr[], int size, int low, int high)
 void quick_sort(int *array, size_t size)
 {
 	size_t i;
-	int arr[size];
+	int arr[200];
 
 	for (i = 0; i < size; i++)
 		arr[i] = array[i];
